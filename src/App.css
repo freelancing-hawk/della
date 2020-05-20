@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  border-color : gray;
+  border : 1px;
+}
+
+.google-form{
+  position: absolute;
+  width: 551px;
+  height: 479px;
+  
+  background: #FFFFFF;
+  border: 1px solid #D0D0D0;
+  box-sizing: border-box;
+  border-radius: 3px;  
+}
+
+.input-type{
+  text-decoration-color: #333333;
+ 
+  margin: 8px;
+}
+button{
+  position: absolute;
+width: 155.87px;
+height: 46px;
+background: #11CDEF;
+border-radius: 8px;
+align-items: initial;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
