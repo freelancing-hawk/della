@@ -1,0 +1,13 @@
+/* import the necessary Bootstrap files */
+// @import "bootstrap/functions";
+// @import "bootstrap/variables";
+
+/* finally, import Bootstrap */
+$theme-colors: (
+  "info": #001529
+);
+
+$info: #001529;
+$danger: red;
+$body-bg: #F0F0F0;
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
