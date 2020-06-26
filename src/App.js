@@ -9,12 +9,12 @@ function App() {
     <div>
       <div className="App page-wrapper chiller-theme toggled">
         <nav id="sidebar" className="sidebar-wrapper">
-          <div className="sidebar-content">
-            <div className="sidebar-brand">
+          <div className="sidebar-content pl-4 pt-3">
+            <div id="close-sidebar" class="fa fa-bars fa-2x">
+             
+            </div>
+            {/* <div className="sidebar-brand">
               <a href="#">Della Infotech</a>
-              <div id="close-sidebar">
-                <i className="fas fa-times"></i>
-              </div>
             </div>
             <div className="sidebar-header">
               <div className="user-pic">
@@ -30,35 +30,32 @@ function App() {
                 </span>
                 <span className="user-role">Administrator</span>
               </div>
-            </div>
-            <div className="sidebar-menu">
+            </div> */}
+            <div className="sidebar-menu mt-5">
               <ul>
-                <li className="header-menu">
-                  <span>Cloud Control Login</span>
-                </li>
-                <li className="sidebar-dropdown">
+                <li className="sidebar">
                   <a href="#">
-                    <i className="fa fa-bars"></i>
+                    {/* <i className="fab fa-aws"></i> */}
                     <span>AWS</span>
                   </a>
                   <a href="#">
-                    <i className="fa fa-bars"></i>
+                    {/* <i className="fab fa-microsoft"></i> */}
                     <span>Azure</span>
                   </a>
                   <a href="#">
-                    <i className="fa fa-bars"></i>
+                    {/* <i className="fab fa-google"></i> */}
                     <span>Goolge Cloud</span>
                   </a>
                 </li>
               </ul>
             </div>
           </div>
-          <div className="sidebar-footer">
+          {/* <div className="sidebar-footer">
             <a href="#">
               <i className="fa fa-bell"></i>
             Logout
           </a>
-          </div>
+          </div> */}
         </nav>
         <main className="page-content">
 

@@ -2,6 +2,8 @@ import React from 'react';
 import "./main-page.css"
 import Table from "../components/Table";
 import Card from "../components/Card";
+import MainPopup from "../components/Popup";
+import CardNew from "../components/CardNew";
 
 const MainPage = () => {
     return (<div className="row">
@@ -15,8 +17,9 @@ const MainPage = () => {
                 </div>
             </nav>
             <div className="tab-content" id="nav-tabContent">
-                <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                    <Card/>
+                <div className="tab-pane d-inline-flex fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    {/* <Card/> */}
+                    <CardNew/>
                 </div>
                 <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                     <h2>AWS</h2>
@@ -27,7 +30,7 @@ const MainPage = () => {
                     <Table/>
                 </div>
                 <div className="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                    
+                    <MainPopup showPopup="true"/>
                 </div>
             </div>
         </div>

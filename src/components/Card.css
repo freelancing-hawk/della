@@ -1,3 +1,17 @@
 .budget-month{
     background:#ED8888;
 }
+
+.card-style{
+    width:283px;
+    box-shadow: 1px 1px 6px 1px rgba(32,33,36,.28);
+    border-color : #453f3f;
+}
+
+.budget{
+    font-weight: 300;
+}
+
+.custom-text{
+    font-size: smaller;
+}
